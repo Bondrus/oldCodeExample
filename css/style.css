@@ -1,0 +1,285 @@
+html, body, #wrap {
+	height: 100%; 
+	margin: 3px;
+	background: #fff;
+	color: #003300;
+	font: 100% Georgia, Arial, Helvetica, sans-serif;
+
+}
+body > #wrap {
+	height: auto; 
+	min-height: 95%;
+}
+
+#headline {
+	width: 100%;
+	color: #003300;
+	text-align: center;
+	padding: 30px 0px 10px 0px;
+	border-bottom: 3px solid #ccc;
+	background: #FFF url('/images/region.jpg') 0px 0px no-repeat;
+	font: 150% Georgia, Arial, Helvetica, sans-serif;
+}
+#headline a {
+	color: #003300;
+	text-decoration: none;
+	
+}
+#headline a:hover {
+	color: #003300;
+}
+#content {
+	padding-bottom: 10px;
+}
+#footer {
+	clear: both;
+	height: 30px;
+	color: #eaeaea;
+	margin-top: 0px;
+	text-align: right;
+	position: relative;
+	padding: 10px 50px 0px 0px;
+	border-top: 3px solid #ccc;
+	font: 100% Georgia, Arial, Helvetica, sans-serif;
+	background: #006666 url(template-example-headline-bg.gif);
+} 
+#footer a {
+	color: #eaeaea;
+	text-decoration: none;
+	
+}
+#footer a:hover {
+	color: #8b8b8b;
+}
+.clearfix:after {
+	height: 0;
+	clear: both;
+	content: ".";
+	display: block;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix { 
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+
+table {
+    float: none;
+    width: 100%;
+    text-align: center;
+    border: 1px solid Silver;
+    font-size: 14px;
+    margin: 5px 0px 5px 0px;
+   background-color: #F3F3F3;
+}
+.clean {
+    background-color: #fff;
+    float: none;
+    width: 20%;
+    text-align: center;
+    font-size: 16px;
+    margin: 0px 0px 0px 0px;
+    border: none;
+}
+
+td {
+    border: 1px solid Silver;
+    font-size: 14px;
+    text-align: center;
+ padding: 5px;
+}
+th {
+    border: 1px solid Silver;
+    font-size: 14px;
+    text-align: center;
+ padding: 10px;
+ font-weight: bolder;
+}
+
+.row1 {
+   color: #003300;
+   background-color: #F3F3F3;
+}
+
+.row2 {
+   color: #FFFFFF;
+   background-color: #009999;
+}
+
+.row {
+   color: #FFFFFF;
+   background-color: #006666;
+   text-align: center;
+
+}
+
+a:link {
+color: #F3F3F3;
+}
+
+a:visited {
+color:#F3F3F3;
+}
+
+a.external:visited { 
+color:#FFFFFF;
+}
+
+a.external:link { 
+color:#FFFFFF;
+}
+
+.delsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Del.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.editsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Edit.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.add1submit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Trade.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.add2submit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Rinok.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.add3submit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Eat.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.add4submit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Uslugi.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.filtrsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Filter.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.cancelsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Cancel.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.savesubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Save.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.loginsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Login.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.prevsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Prev.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+.nextsubmit {
+width:  64px; 
+height: 64px; 
+margin: 0;
+padding:0;
+border: 0;
+background: transparent url('/images/icon/Next.png') no-repeat center top;
+text-indent: -1000em;
+cursor: pointer;
+cursor: hand;
+}
+
+.error {
+  color:#FF0000;
+}
+
+/* End hide from IE-mac */
